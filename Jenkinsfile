@@ -2,6 +2,6 @@ node {
   stage 'Build'
   sh './gradlew clean assemble'
 
-  stage 'TEst'
+  stage 'Test'
   sh './gradlew check'
 }
